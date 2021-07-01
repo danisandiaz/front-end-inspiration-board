@@ -4,5 +4,17 @@
     max-height: 15vh;
     min-height: 15vh;
     max-width: 20vw;
-    min-width: 20vw;
+    min-width: 100%;
   }
+
+/* form {
+    min-width: 100%;
+}
+
+form .new-board-form {
+  
+} */
+
+.create-board-div {
+  min-width: 90%;
+}

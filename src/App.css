@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+/* * {
+    border-style: solid;
+    border-color: red;
+} */
 body {
     animation: 50000ms ease-in-out infinite color-change;
 }
@@ -32,30 +38,59 @@ overflow: scroll;
 margin-right: 2rem;
 border: black solid 1px;
 border-radius: 3px;
-max-height: 15vh;
-min-height: 15vh;
-max-width: 20vw;
-min-width: 20vw;
+
+min-height: 65%;
+
 background-color: #e4e6e7;
 padding: 0;
+min-width: 100%;
 }
 
 .board-sec {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    margin-left: 150px;
-}
-
-.board-header {
-margin-left: 10%;
-}
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+height: 250px;
+width: 100%;
+} 
 
 .board-list-header {
     display: flex;
-    align-content: center;
+    align-content: space-between;
     align-items: center;
+    min-width: 100%;
+    text-align: right;
+
+
 }
 
 .delete-board-icon {
-    margin-left: 22%;
+margin-left: 22%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+text-align: right;
 }
+
+.board-header {
+margin-left: 5%;
+font-family: 'Roboto', sans-serif;
+font-size: xxx-large;
+text-shadow: 3px 3px #ffffff;
+color:rgb(59, 59, 59);
+
+}
+
+h2 {
+font-family: 'Roboto', sans-serif;
+text-shadow: 2px 2px #ffffff;
+color:rgb(59, 59, 59);
+}
+
+.board-sec div {
+width: 40%;    
+
+}
+
+
