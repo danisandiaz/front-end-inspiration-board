@@ -56,7 +56,8 @@ const CardList = ({ selectedBoard }) => {
             {message, color}
         ).then((response) => {
             const cards = [...cardsData];
-            cards.push([response.data.cards]);
+            cards.push(response.data.card);
+            
             setCardsData(cards);
         }).catch((error) => {
             console.log('Error:', error);

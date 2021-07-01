@@ -33,8 +33,8 @@ const CardForm = ({ createNewCard }) => {
                 <select onChange={handleCardColorChange}>
                     <option value="yellow">Yellow</option>
                     <option value="pink">Pink</option>
-                    <option value="card-blue">Blue</option>
-                    <option value="card-green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
                 </select>
                 <input type="Submit"
                 disabled={message.length === 0 || message.length > 40}
