@@ -21,7 +21,7 @@ const CardForm = ({ createNewCard }) => {
         <div>
             <h2>Create a New Card</h2>
             <form onSubmit={submitNewCard} className='new-card-form'>
-                <label>Message</label>
+                <label className="form-title">Message</label>
                 <input 
                     type='text'
                     value={message}
@@ -29,7 +29,7 @@ const CardForm = ({ createNewCard }) => {
                     placeholder='Add a message'
                 />
                 <p>Preview: {message} </p>
-                <p>Select a sticky note color:</p>
+                <p className="form-title">Select a sticky note color:</p>
                 <select onChange={handleCardColorChange}>
                     <option value="yellow">Yellow</option>
                     <option value="pink">Pink</option>

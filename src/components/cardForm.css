@@ -6,3 +6,21 @@
     max-width: 20vw;
     min-width: 20vw;
 }
+
+.new-card-form p {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-weight: 300;
+
+
+
+}
+.new-card-form input{
+    margin-top: 30px;
+}
+
+input:hover {
+    color: rgb(11, 158, 207);
+    border: 1px solid #999;
+}
+

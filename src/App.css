@@ -4,6 +4,15 @@
     border-style: solid;
     border-color: red;
 }  */
+
+*{
+    /* font-family: 'Roboto', sans-serif; */
+    color:rgb(39, 39, 39);
+    /* font-weight: lighter; */
+
+
+
+}
 body {
     animation: 50000ms ease-in-out infinite color-change;
 }
@@ -38,7 +47,7 @@ overflow: scroll;
 margin-right: 2rem;
 border: black solid 1px;
 border-radius: 3px;
-
+text-align: left;
 min-height: 65%;
 
 background-color: #e4e6e7;
@@ -90,7 +99,6 @@ color:rgb(59, 59, 59);
 
 .board-sec div {
 width: 40%;    
-
 }
 
 
