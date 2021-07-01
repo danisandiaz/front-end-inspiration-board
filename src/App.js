@@ -73,7 +73,7 @@ const App = () => {
 
     return (
         <div>
-            <h1 className='board-header'>Inspiration Board</h1>
+            <h1 className='board-header'>Lucky 7th Inspiration Board</h1>
             <section className='board-sec'>
                 <div>
                     <div className='board-list-header'>

@@ -3,7 +3,7 @@
 /* * {
     border-style: solid;
     border-color: red;
-} */
+}  */
 body {
     animation: 50000ms ease-in-out infinite color-change;
 }

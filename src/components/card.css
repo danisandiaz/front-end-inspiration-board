@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     font-family: 'Kalam', cursive;
+    box-shadow: 3px 3px rgb(182, 182, 182);
 }
 
 .yellow {

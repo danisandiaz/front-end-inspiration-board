@@ -3,6 +3,8 @@
     /* grid-template-columns: 2fr 1fr; */
     /* margin-top: 100px; */
     margin-left: 4.5%;
+    margin-top: 3%;
+    height:400px;
 
 }
 .card-list-sec section {
@@ -15,6 +17,7 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
     margin: 2rem;
-
-
+}
+.card-list-sec section {
+    width: 55%;
 }
