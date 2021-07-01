@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+
 .card {
     max-height: 20vh;
     min-height: 20vh;
@@ -7,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Kalam', cursive;
 }
 
 .yellow {
@@ -28,3 +32,9 @@
 .card-bottom {
     margin: 10px;
 }
+
+
+
+/* .note {
+    font-family: 'Kalam', cursive;
+} */

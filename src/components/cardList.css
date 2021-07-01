@@ -1,8 +1,13 @@
 .card-list-sec {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    margin-top: 100px;
-    margin-left: 150px;
+    display: flex;
+    /* grid-template-columns: 2fr 1fr; */
+    /* margin-top: 100px; */
+    margin-left: 4.5%;
+
+}
+.card-list-sec section {
+    margin-right: 5%;
+
 }
 
 .cards-container {
@@ -10,4 +15,6 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
     margin: 2rem;
+
+
 }
