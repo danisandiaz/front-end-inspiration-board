@@ -50,13 +50,13 @@ const CardList = ({ selectedBoard }) => {
             />)
     });
 
-    const createNewCard = (message) => {
+    const createNewCard = (message, color) => {
         axios.post(
             `https://lucky7th-board.herokuapp.com/boards/${selectedBoard.id}/cards`,
             {message}
         ).then((response) => {
             const cards = [...cardsData];
-            cards.push(response.data.card);
+            cards.push({...response.data.card, color});
             setCardsData(cards);
         }).catch((error) => {
             console.log('Error:', error);

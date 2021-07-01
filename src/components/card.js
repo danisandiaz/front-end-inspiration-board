@@ -1,8 +1,9 @@
 import './card.css';
 
 const Card = ({ card, deleteCard, likeCard }) => {
+    const cardClassName = 'card ' + card.color;
     return (
-    <div className='card'>
+    <div className={cardClassName}>
         <h4>{card.message}</h4>
         <div>
             <span className='card-bottom'>{card.likes_count}</span>

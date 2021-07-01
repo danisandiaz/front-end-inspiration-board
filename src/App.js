@@ -33,6 +33,11 @@ const App = () => {
                     return existingBoard.id !== board_id;
                 });
                 setBoardsData(newBoardsData);
+                setSelectedBoard({
+                    title: '',
+                    owner: '',
+                    id: null
+                })
             }).catch((error) => {
                 console.log('Error:', error);
                 alert('Couldn\'t delete the card.');
